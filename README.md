@@ -38,4 +38,4 @@ Jason's example app is live at https://egghead-serverless-typescript.netlify.app
 
 ### Side note
 
-I saw that Jason had some kind of extension that shows the "import cost" of a package. Seemed like a neat thing to have so I installed it too. Looks like it is the extension "Import Cost".
+I saw that Jason had some kind of extension that shows the "import cost" of a package. Seemed like a neat thing to have so I installed it too. Looks like it is the extension "Import Cost". Also found this article on medium about how the extension works: [Keep Your Bundle Size Under Control (with Import-Cost VSCode Extension)](https://citw.medium.com/keep-your-bundle-size-under-control-with-import-cost-vscode-extension-5d476b3c5a76)
