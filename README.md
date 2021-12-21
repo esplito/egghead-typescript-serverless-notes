@@ -17,3 +17,25 @@ To test the serverless functions that take arguments we can do a post request us
 ```
 curl -X POST -d '{"name": "Test name", "favouriteColour": "purple"}' http://localhost:8888/.netlify/functions/submit
 ```
+
+## Netlify Deploy (through Netlify CLI)
+
+(I skipped this for now. I already have my own site on Netlify)
+
+1. Run `ntl init`
+2. Select `Create & configure new site`
+3. Choose team
+4. Type in the name of your site
+5. Woho! 🥳 Site is now created.
+6. Select build command to run (in this case `vite build`)
+7. Select directory to deploy (`dist`)
+8. Select Netlify Functions folder (`netlify/functions`)
+9. Netlify CI/CD is now configured!!! 🚀
+
+Run `ntl open` to open up the site dashboard in the browser.
+
+Jason's example app is live at https://egghead-serverless-typescript.netlify.app/
+
+### Side note
+
+I saw that Jason had some kind of extension that shows the "import cost" of a package. Seemed like a neat thing to have so I installed it too. Looks like it is the extension "Import Cost".
